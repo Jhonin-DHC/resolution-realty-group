@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/json-ld";
 import { ListingDetail } from "@/components/listing-detail";
 import { MarketingPage } from "@/components/marketing-page";
 import { PostDetail } from "@/components/post-detail";
@@ -7,6 +8,7 @@ import { resolveSlug } from "@/lib/content-resolver";
 import { getPublishedListings } from "@/lib/listings-service";
 import { getMarketingPages } from "@/lib/pages-service";
 import { getPostsPage } from "@/lib/posts-service";
+import { articleJsonLd, breadcrumbJsonLd, canonicalUrl, pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 interface PageProps {
@@ -21,26 +23,33 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const resolved = await resolveSlug(slug);
+  const path = `/${slug}/`;
   if (resolved.kind === "listing") {
-    return {
+    return pageMetadata({
       title: resolved.listing.seoTitle || resolved.listing.title,
-      description: resolved.listing.seoDescription,
-      openGraph: { images: resolved.listing.imageUrl ? [resolved.listing.imageUrl] : [] }
-    };
+      description: resolved.listing.seoDescription || resolved.listing.description.slice(0, 160),
+      path,
+      image: resolved.listing.imageUrl
+    });
   }
   if (resolved.kind === "page") {
-    return {
+    return pageMetadata({
       title: resolved.page.seoTitle || resolved.page.title,
-      description: resolved.page.seoDescription || resolved.page.intro
-    };
+      description: resolved.page.seoDescription || resolved.page.intro,
+      path,
+      image: resolved.page.heroImage
+    });
   }
   if (resolved.kind === "post") {
-    return {
+    return pageMetadata({
       title: resolved.post.seoTitle || resolved.post.title,
-      description: resolved.post.seoDescription || resolved.post.excerpt
-    };
+      description: resolved.post.seoDescription || resolved.post.excerpt,
+      path,
+      image: resolved.post.featuredImage,
+      type: "article"
+    });
   }
-  return { title: site.name };
+  return pageMetadata({ title: site.name, description: site.description, path });
 }
 
 export default async function SlugPage({ params }: PageProps) {
@@ -52,7 +61,7 @@ export default async function SlugPage({ params }: PageProps) {
       "@context": "https://schema.org",
       "@type": "RealEstateListing",
       name: resolved.listing.title,
-      url: `${site.url}/${resolved.listing.slug}/`,
+      url: canonicalUrl(`/${resolved.listing.slug}/`),
       description: resolved.listing.seoDescription,
       image: resolved.listing.imageUrl,
       offers: {
@@ -69,7 +78,13 @@ export default async function SlugPage({ params }: PageProps) {
     };
     return (
       <>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <JsonLd data={jsonLd} />
+        <JsonLd
+          data={breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: resolved.listing.title, path: `/${resolved.listing.slug}/` }
+          ])}
+        />
         <ListingDetail listing={resolved.listing} />
       </>
     );
@@ -83,16 +98,17 @@ export default async function SlugPage({ params }: PageProps) {
   if (resolved.kind === "post") {
     const { posts } = await getPostsPage(1, 8, resolved.post.categorySlug);
     const related = posts.filter((item) => item.slug !== resolved.post.slug).slice(0, 2);
-    const jsonLd = {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline: resolved.post.title,
-      datePublished: resolved.post.publishedAt,
-      description: resolved.post.seoDescription || resolved.post.excerpt
-    };
     return (
       <>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <JsonLd data={articleJsonLd(resolved.post)} />
+        <JsonLd
+          data={breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Blogs", path: "/blogs/" },
+            { name: resolved.post.category, path: `/category/${resolved.post.categorySlug}/` },
+            { name: resolved.post.title, path: `/${resolved.post.slug}/` }
+          ])}
+        />
         <PostDetail post={resolved.post} related={related} />
       </>
     );

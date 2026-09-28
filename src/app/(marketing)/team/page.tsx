@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { RemoteImage } from "@/components/remote-image";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Our Team",
-  description: "Meet David Josh, MBA — licensed realtor with Resolution Realty Group, brokered by Central Metro Realty."
-};
+  description: "Meet David Josh, MBA — licensed realtor with Resolution Realty Group, brokered by Central Metro Realty.",
+  path: "/team/"
+});
 
 export default function TeamPage() {
   return (

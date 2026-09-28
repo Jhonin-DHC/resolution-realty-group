@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { InquiryForm } from "@/components/inquiry-form";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Free Home Valuation in Texas Real Estate",
-  description: "Get a free, no-obligation home valuation from Resolution Realty Group."
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Free Home Valuation in Texas",
+  description: "Get a free, no-obligation home valuation from Resolution Realty Group.",
+  path: "/free-home-valuation/"
+});
 
 export default function ValuationPage() {
   return (

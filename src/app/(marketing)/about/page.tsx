@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { RemoteImage } from "@/components/remote-image";
 import { teamMembers } from "@/data/home";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Our Story | Real Estate Experts in Texas",
-  description: "Meet Resolution Realty Group, founded in 2025 and built on trust, integrity, and personalized service."
-};
+  description: "Meet Resolution Realty Group, founded in 2025 and built on trust, integrity, and personalized service.",
+  path: "/about/",
+  image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/resolution-realty-group.webp"
+});
 
 export default function AboutPage() {
   return (

@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { InquiryForm } from "@/components/inquiry-form";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Remarkable Texas Real Estate Experts | Contact",
-  description: "Get in touch with Resolution Realty Group to buy, sell, or invest in Texas real estate."
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Contact Resolution Realty Group",
+  description: "Get in touch with Resolution Realty Group to buy, sell, or invest in Texas real estate.",
+  path: "/contact-us-texas-real-estate/"
+});
 
 export default function ContactPage() {
   return (

@@ -99,6 +99,16 @@ async function main() {
       const categoryId = Array.isArray(post.categories) ? post.categories[0] : null;
       const category = categoryMap.get(categoryId) || { name: "Uncategorized", slug: "uncategorized" };
       const seo = post.yoast_head_json || post.rank_math || {};
+      const seoTitle =
+        seo.title ||
+        post.rank_math_title ||
+        post.yoast_title ||
+        title;
+      const seoDescription =
+        seo.description ||
+        post.rank_math_description ||
+        post.yoast_metadesc ||
+        excerpt;
 
       await Post.updateOne(
         { slug },
@@ -113,8 +123,8 @@ async function main() {
             featuredImage: featured,
             publishedAt: post.date ? new Date(post.date) : new Date(),
             published: post.status === "publish",
-            seoTitle: seo.title || title,
-            seoDescription: seo.description || excerpt
+            seoTitle,
+            seoDescription
           }
         },
         { upsert: true }

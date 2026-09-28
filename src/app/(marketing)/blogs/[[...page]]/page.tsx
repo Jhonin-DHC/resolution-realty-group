@@ -2,11 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PostCard } from "@/components/post-card";
 import { getCategories, getPostsPage, POSTS_PER_PAGE } from "@/lib/posts-service";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Blogs",
-  description: "Texas real estate insights from Resolution Realty Group."
-};
+export async function generateMetadata({ params }: { params: Promise<{ page?: string[] }> }): Promise<Metadata> {
+  const { page } = await params;
+  const current = page && page.length ? Number(page[0] === "page" ? page[1] : page[0]) || 1 : 1;
+  const path = current > 1 ? `/blogs/${current}/` : "/blogs/";
+  return pageMetadata({
+    title: current > 1 ? `Blogs — Page ${current}` : "Texas Real Estate Blog",
+    description: "Texas real estate insights from Resolution Realty Group.",
+    path
+  });
+}
 
 function parsePage(page?: string[]) {
   if (!page || page.length === 0) return 1;

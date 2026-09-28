@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Terms and Conditions",
-  description: "Terms and conditions for Resolution Realty Group."
-};
+  description: "Terms and conditions for Resolution Realty Group.",
+  path: "/terms-and-conditions/"
+});
 
 export default function TermsPage() {
   return (

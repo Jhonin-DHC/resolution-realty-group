@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy",
-  description: "Privacy policy for Resolution Realty Group."
-};
+  description: "Privacy policy for Resolution Realty Group.",
+  path: "/privacy-policy/"
+});
 
 export default function PrivacyPage() {
   return (

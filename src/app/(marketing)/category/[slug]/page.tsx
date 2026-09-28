@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PostCard } from "@/components/post-card";
 import { getCategories, getPostsPage, POSTS_PER_PAGE } from "@/lib/posts-service";
+import { pageMetadata } from "@/lib/seo";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -13,7 +14,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const categories = await getCategories();
   const category = categories.find((item) => item.slug === slug);
-  return { title: category ? `${category.name} Real Estate` : "Category" };
+  return pageMetadata({
+    title: category ? `${category.name} Real Estate` : "Category",
+    description: category
+      ? `Texas real estate articles and selling tips for ${category.name} from Resolution Realty Group.`
+      : "Texas real estate articles from Resolution Realty Group.",
+    path: `/category/${slug}/`
+  });
 }
 
 export default async function CategoryPage({ params, searchParams }: PageProps) {

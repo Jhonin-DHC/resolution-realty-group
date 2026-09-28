@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { HeroSlideshow } from "@/components/hero-slideshow";
@@ -7,10 +8,18 @@ import { PostCard } from "@/components/post-card";
 import { RemoteImage } from "@/components/remote-image";
 import { SocialLinks } from "@/components/social-links";
 import { TestimonialCarousel } from "@/components/testimonial-carousel";
-import { aboutImages, homepageFaqs, partnerLogos, pillars, processSteps } from "@/data/home";
+import { aboutImages, heroSlides, homepageFaqs, partnerLogos, pillars, processSteps } from "@/data/home";
 import { getFeaturedListings } from "@/lib/listings-service";
 import { getRecentPosts } from "@/lib/posts-service";
+import { pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
+
+export const metadata: Metadata = pageMetadata({
+  title: `${site.name} | ${site.tagline}`,
+  description: site.description,
+  path: "/",
+  image: heroSlides[0]
+});
 
 export default async function HomePage() {
   const [listings, posts] = await Promise.all([getFeaturedListings(), getRecentPosts(3)]);
