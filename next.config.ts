@@ -50,7 +50,19 @@ const nextConfig: NextConfig = {
       { source: "/contact", destination: "/contact-us-texas-real-estate/", permanent: true },
       { source: "/contact/", destination: "/contact-us-texas-real-estate/", permanent: true },
       { source: "/terms", destination: "/terms-and-conditions/", permanent: true },
-      { source: "/terms/", destination: "/terms-and-conditions/", permanent: true }
+      { source: "/terms/", destination: "/terms-and-conditions/", permanent: true },
+      {
+        source: "/",
+        has: [{ type: "host" as const, value: "resolution-realty-group.vercel.app" }],
+        destination: "https://www.resolutionrealtygroup.com/",
+        permanent: true
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host" as const, value: "resolution-realty-group.vercel.app" }],
+        destination: "https://www.resolutionrealtygroup.com/:path*",
+        permanent: true
+      }
     ];
   },
   turbopack: {

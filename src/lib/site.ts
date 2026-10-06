@@ -1,7 +1,17 @@
+const PRODUCTION_SITE_URL = "https://www.resolutionrealtygroup.com";
+
+function resolveSiteUrl() {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "";
+  if (configured.includes("localhost") || configured.includes("127.0.0.1")) return configured;
+  if (!configured || configured.includes("vercel.app")) return PRODUCTION_SITE_URL;
+  if (/^https?:\/\/resolutionrealtygroup\.com$/i.test(configured)) return PRODUCTION_SITE_URL;
+  return configured;
+}
+
 export const site = {
   name: "Resolution Realty Group",
   shortName: "RRG",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://resolutionrealtygroup.com",
+  url: resolveSiteUrl(),
   email: "concierge@resolutionrealtygroup.com",
   phone: "(469) 837-8891",
   phoneHref: "tel:+14698378891",

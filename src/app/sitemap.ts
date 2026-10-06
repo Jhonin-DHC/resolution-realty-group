@@ -1,7 +1,7 @@
 import { getPublishedListings } from "@/lib/listings-service";
 import { getMarketingPages } from "@/lib/pages-service";
 import { getAllPostSlugs, getCategories } from "@/lib/posts-service";
-import { site } from "@/lib/site";
+import { canonicalUrl } from "@/lib/seo";
 
 export default async function sitemap() {
   const [listings, pages, posts, categories] = await Promise.all([
@@ -11,8 +11,8 @@ export default async function sitemap() {
     getCategories()
   ]);
 
-  const staticRoutes = [
-    "",
+  const staticPaths = [
+    "/",
     "/about/",
     "/team/",
     "/our-mission/",
@@ -21,28 +21,31 @@ export default async function sitemap() {
     "/blogs/",
     "/privacy-policy/",
     "/terms-and-conditions/"
-  ].map((path) => ({
-    url: `${site.url}${path}`,
+  ];
+  const staticRoutes = staticPaths.map((path) => ({
+    url: canonicalUrl(path),
     lastModified: new Date()
   }));
 
   const listingRoutes = listings.map((item) => ({
-    url: `${site.url}/${item.slug}/`,
+    url: canonicalUrl(`/${item.slug}/`),
     lastModified: new Date()
   }));
 
-  const pageRoutes = pages.map((item) => ({
-    url: `${site.url}/${item.slug}/`,
-    lastModified: new Date()
-  }));
+  const pageRoutes = pages
+    .filter((item) => !staticPaths.includes(`/${item.slug}/`))
+    .map((item) => ({
+      url: canonicalUrl(`/${item.slug}/`),
+      lastModified: new Date()
+    }));
 
   const postRoutes = posts.map((item) => ({
-    url: `${site.url}/${item.slug}/`,
+    url: canonicalUrl(`/${item.slug}/`),
     lastModified: new Date(item.publishedAt || Date.now())
   }));
 
   const categoryRoutes = categories.map((item) => ({
-    url: `${site.url}/category/${item.slug}/`,
+    url: canonicalUrl(`/category/${item.slug}/`),
     lastModified: new Date()
   }));
 
