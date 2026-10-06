@@ -42,7 +42,7 @@ function fromDoc(doc: Record<string, unknown>): PublicListing {
     featureBlocks: Array.isArray(doc.featureBlocks)
       ? (doc.featureBlocks as ListingFeatureBlock[]).map((block) => ({
           heading: String(block.heading ?? ""),
-          body: String(block.body ?? "")
+          body: rewriteLegacyWpMediaInText(String(block.body ?? ""))
         }))
       : [],
     description: rewriteLegacyWpMediaInText(String(doc.description ?? "")),

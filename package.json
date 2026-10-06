@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "node --env-file=.env.local --experimental-strip-types scripts/seed.mjs",
-    "import:wp": "node --env-file=.env.local scripts/import-wp-posts.mjs"
+    "import:wp": "node --env-file=.env.local scripts/import-wp-posts.mjs",
+    "rewrite:wp-media": "node --env-file=.env.local scripts/rewrite-wp-media.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1083.0",

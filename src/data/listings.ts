@@ -92,28 +92,28 @@ Step inside to an open floorplan filled with natural light and enhanced by built
 
 Situated on a generous 7,840 sq ft lot, this home features a private two-car garage discreetly positioned at the rear for convenience and privacy. The outdoor space includes a shaded seating area surrounded by mature trees—ideal for relaxing or watching kids and pets play. The laundry area offers hookups for both electric and gas dryers with room for a full-size washer and dryer. Combining style, function, and comfort, this home is ready to welcome you!`,
     imageUrl:
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/01_0417415049fb316c9455fe6d437c6425fb50456b_mls.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/01_0417415049fb316c9455fe6d437c6425fb50456b_mls.webp",
     imageUrls: [
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/08_IMG_7916HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/09_IMG_7922HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/34_IMG_8018HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/32_IMG_8012HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/28_IMG_7997HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/27_IMG_7988HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/25_IMG_7982HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/02_IMG_7877HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/03_IMG_7883HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/13_IMG_7934HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/17_IMG_7955HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/06_IMG_7904HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/19_IMG_7964HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/15_IMG_7946HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/31_IMG_8009HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/18_IMG_7958HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/14_IMG_7937HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/30_IMG_8006HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/23_IMG_7976HDR_mls.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/07_IMG_7910HDR_mls.jpg"
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/08_IMG_7916HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/09_IMG_7922HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/34_IMG_8018HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/32_IMG_8012HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/28_IMG_7997HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/27_IMG_7988HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/25_IMG_7982HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/02_IMG_7877HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/03_IMG_7883HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/13_IMG_7934HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/17_IMG_7955HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/06_IMG_7904HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/19_IMG_7964HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/15_IMG_7946HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/31_IMG_8009HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/18_IMG_7958HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/14_IMG_7937HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/30_IMG_8006HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/23_IMG_7976HDR_mls.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/07_IMG_7910HDR_mls.jpg"
     ]
   },
   {
@@ -179,11 +179,11 @@ Situated on a generous 7,840 sq ft lot, this home features a private two-car gar
 Built in 1991, this home blends classic charm with modern comforts, offering plenty of room for family living and entertaining. With an estimated refinance payment of $3,970/month, this home is both a wise investment and a wonderful place to call your own.
 
 Don’t miss this opportunity — schedule your showing and submit your best offer today!`,
-    imageUrl: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/1-print-Pentridge-Dr-1306-001-scaled.webp",
+    imageUrl: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/1-print-Pentridge-Dr-1306-001-scaled.webp",
     imageUrls: [
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222557.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222731.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222633.webp"
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222557.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222731.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-06-05-222633.webp"
     ]
   },
   {
@@ -266,27 +266,27 @@ Don’t miss this opportunity — schedule your showing and submit your best off
 The kitchen features sleek finishes, gas appliances, and ample cabinet space—designed for everyday function and style. Relax in the large primary suite with a spa-like en-suite bath, dual vanities, and a walk-in closet. Bonus: the backyard is hot tub-ready with a 220V hookup already installed.
 
 Located in a desirable community with easy access to local amenities, this is the opportunity you’ve been waiting for. Schedule your showing today—this home won’t last!`,
-    imageUrl: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/oconnor-kitchen.png",
+    imageUrl: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/oconnor-kitchen.png",
     imageUrls: [
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Home-Exterior-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Home-Exterior-3-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Home-Exterior-2-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Home-Exterior-1-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Entrance-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Living-Room-1-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Living-Room-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Kitchen-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Kitchen-2-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Bedroom-1-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Bathroom-2-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Bathroom-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Closet-2.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Closet.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Pantry-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Laundry-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Pantry-2.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Backyard-2-min-1.jpg",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/05/Backyard-min-1.jpg"
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Home-Exterior-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Home-Exterior-3-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Home-Exterior-2-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Home-Exterior-1-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Entrance-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Living-Room-1-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Living-Room-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Kitchen-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Kitchen-2-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Bedroom-1-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Bathroom-2-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Bathroom-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Closet-2.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Closet.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Pantry-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Laundry-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Pantry-2.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Backyard-2-min-1.jpg",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/05/Backyard-min-1.jpg"
     ]
   },
   {
@@ -360,18 +360,18 @@ This beautifully updated 4-bedroom, 2-bathroom ranch-style home blends historic 
 Move-in ready with modern upgrades, this beautifully renovated ranch-style home features a new central HVAC system, updated electrical heating, stainless steel kitchen appliances, fresh interior paint, and energy-efficient windows—offering comfort, style, and value for today’s discerning buyer.
 
 White Deer is a close-knit town that embodies the charm of small-town living. Residents enjoy a peaceful environment, strong community ties, and a relaxed lifestyle, making it an ideal setting for families and individuals seeking a tranquil atmosphere.`,
-    imageUrl: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/white-deer-1105.png",
+    imageUrl: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/white-deer-1105.png",
     imageUrls: [
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225659-Copy.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225719-Copy.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225710-Copy.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225649.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225640.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225631.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225619.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225606.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/IMG_5576-scaled.webp",
-      "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/IMG_5550-1.webp"
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225659-Copy.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225719-Copy.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225710-Copy.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225649.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225640.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225631.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225619.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Screenshot-2025-04-25-225606.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/IMG_5576-scaled.webp",
+      "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/IMG_5550-1.webp"
     ]
   },
   {
@@ -404,7 +404,7 @@ White Deer is a close-knit town that embodies the charm of small-town living. Re
     featureBlocks: [],
     description:
       "A cozy 6-bedroom, 3-bath home with open land in Carthage. Contact Resolution Realty Group for current pricing, showing details, and a guaranteed cash offer.",
-    imageUrl: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/carthage.png",
-    imageUrls: ["https://resolutionrealtygroup.com/wp-content/uploads/2025/06/carthage.png"]
+    imageUrl: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/carthage.png",
+    imageUrls: ["https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/carthage.png"]
   }
 ];

@@ -1,6 +1,15 @@
 import mongoose from "mongoose";
 
-const WP_ORIGIN = "https://resolutionrealtygroup.com";
+const WP_ORIGIN = "https://39237.us6.myftpupload.com";
+const WP_MEDIA_ORIGIN = "https://39237.us6.myftpupload.com";
+
+function rewriteWpMedia(text = "") {
+  return text.replace(
+    /https?:\/\/(?:www\.)?(?:resolutionrealtygroup\.com|39237\.us6\.myftpupload\.com)\/wp-content/gi,
+    `${WP_MEDIA_ORIGIN}/wp-content`
+  );
+}
+
 const SKIP_SLUGS = new Set(["kms-activator-download"]);
 
 function stripTags(value = "") {
@@ -86,16 +95,17 @@ async function main() {
       }
 
       const title = decodeEntities(stripTags(post.title?.rendered || slug));
-      let body = post.content?.rendered || "";
+      let body = rewriteWpMedia(post.content?.rendered || "");
       if (!stripTags(body)) {
-        body = await extractBodyFallback(slug);
+        body = rewriteWpMedia(await extractBodyFallback(slug));
       }
 
       const excerpt = decodeEntities(stripTags(post.excerpt?.rendered || body)).slice(0, 280);
-      const featured =
+      const featured = rewriteWpMedia(
         post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
-        post.jetpack_featured_media_url ||
-        "";
+          post.jetpack_featured_media_url ||
+          ""
+      );
       const categoryId = Array.isArray(post.categories) ? post.categories[0] : null;
       const category = categoryMap.get(categoryId) || { name: "Uncategorized", slug: "uncategorized" };
       const seo = post.yoast_head_json || post.rank_math || {};

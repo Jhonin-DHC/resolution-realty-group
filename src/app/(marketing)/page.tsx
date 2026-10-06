@@ -165,7 +165,7 @@ export default async function HomePage() {
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-            <RemoteImage src="https://resolutionrealtygroup.com/wp-content/uploads/2025/06/building-bg.png" alt="" />
+            <RemoteImage src="https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/building-bg.png" alt="" />
           </div>
         </div>
       </section>

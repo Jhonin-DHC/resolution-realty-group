@@ -1,6 +1,6 @@
 import type { PublicPage } from "@/types/content";
 
-const guaranteeHero = "https://resolutionrealtygroup.com/wp-content/uploads/2025/02/Home-Page-Image.png";
+const guaranteeHero = "https://39237.us6.myftpupload.com/wp-content/uploads/2025/02/Home-Page-Image.png";
 
 export const marketingPages: PublicPage[] = [
   {
@@ -285,7 +285,7 @@ export const marketingPages: PublicPage[] = [
     seoTitle: "Guaranteed Offer Program | Resolution Realty Group",
     seoDescription: "List on the open market with a cash-offer safety net if your home hasn’t sold.",
     heroImage: guaranteeHero,
-    extraImage: "https://resolutionrealtygroup.com/wp-content/uploads/2020/01/doc-signing.jpg",
+    extraImage: "https://39237.us6.myftpupload.com/wp-content/uploads/2020/01/doc-signing.jpg",
     heading: "Sell Your Home with Confidence",
     intro:
       "Selling your home can be stressful. You worry about finding the right buyer, negotiating the best price, and the whole process taking too long. That’s why we offer our exclusive “Guaranteed Offer” program – designed to give you peace of mind and a safety net when selling your property.",
@@ -357,7 +357,7 @@ export const marketingPages: PublicPage[] = [
     seoTitle: "Our Mission | Resolution Realty Group",
     seoDescription: "Turning real estate challenges into opportunities with integrity, expertise, and compassion.",
     heroImage: guaranteeHero,
-    extraImage: "https://resolutionrealtygroup.com/wp-content/uploads/2025/02/Cancellation-Promise-Photo-1.jpg",
+    extraImage: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/02/Cancellation-Promise-Photo-1.jpg",
     heading: "Turning Real Estate Challenges into Opportunities – Delivering Results with Integrity, Expertise, and Compassion.",
     intro:
       "Resolution Realty Group is committed to being the premier real estate solution for homeowners in the Dallas Fort Worth Metroplex, Houston, Austin and the surrounding Texas communities.",

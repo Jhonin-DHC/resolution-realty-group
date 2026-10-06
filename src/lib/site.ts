@@ -20,8 +20,8 @@ export const site = {
     facebook: "https://www.facebook.com/davidcjosh",
     linkedin: "https://www.linkedin.com/company/resolution-property-group/"
   },
-  logo: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/logo-rv-03.png",
-  icon: "https://resolutionrealtygroup.com/wp-content/uploads/2025/02/cropped-resolutionrealtygroup-1-32x32.png"
+  logo: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/logo-rv-03.png",
+  icon: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/02/cropped-resolutionrealtygroup-1-32x32.png"
 } as const;
 
 export const reservedSlugs = new Set([

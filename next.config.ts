@@ -19,6 +19,10 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "39237.us6.myftpupload.com"
+      },
+      {
+        protocol: "https",
         hostname: "resolutionrealtygroup.com"
       },
       {

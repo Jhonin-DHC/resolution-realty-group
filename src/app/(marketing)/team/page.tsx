@@ -15,7 +15,7 @@ export default function TeamPage() {
       <div className="container-shell grid items-center gap-10 md:grid-cols-2">
         <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl">
           <RemoteImage
-            src="https://resolutionrealtygroup.com/wp-content/uploads/2025/03/David-Josh-Website-Photo.png"
+            src="https://39237.us6.myftpupload.com/wp-content/uploads/2025/03/David-Josh-Website-Photo.png"
             alt="David Josh, MBA"
             className="object-cover object-top"
           />

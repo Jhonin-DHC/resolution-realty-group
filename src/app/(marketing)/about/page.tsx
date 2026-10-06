@@ -8,14 +8,14 @@ export const metadata: Metadata = pageMetadata({
   title: "Our Story | Real Estate Experts in Texas",
   description: "Meet Resolution Realty Group, founded in 2025 and built on trust, integrity, and personalized service.",
   path: "/about/",
-  image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/resolution-realty-group.webp"
+  image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/resolution-realty-group.webp"
 });
 
 export default function AboutPage() {
   return (
     <article>
       <section className="relative min-h-[360px] bg-[var(--navy)] text-white">
-        <RemoteImage src="https://resolutionrealtygroup.com/wp-content/uploads/2025/06/resolution-realty-group.webp" alt="" />
+        <RemoteImage src="https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/resolution-realty-group.webp" alt="" />
         <div className="absolute inset-0 bg-[var(--navy)]/70" />
         <div className="container-shell relative py-24">
           <h1 className="text-5xl">Our Story</h1>

@@ -1,12 +1,12 @@
 export const heroSlides = [
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/1-print-Pentridge-Dr-1306-001-scaled.webp",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/6-print-Pentridge-Dr-1306-006-scaled.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/7-print-Pentridge-Dr-1306-007-scaled.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/8-print-Pentridge-Dr-1306-008-scaled.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/28_IMG_7997HDR_mls.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/14_IMG_7937HDR_mls.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/23_IMG_7976HDR_mls.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/01_0417415049fb316c9455fe6d437c6425fb50456b_mls.webp"
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/1-print-Pentridge-Dr-1306-001-scaled.webp",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/6-print-Pentridge-Dr-1306-006-scaled.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/7-print-Pentridge-Dr-1306-007-scaled.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/8-print-Pentridge-Dr-1306-008-scaled.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/28_IMG_7997HDR_mls.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/14_IMG_7937HDR_mls.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/23_IMG_7976HDR_mls.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/01_0417415049fb316c9455fe6d437c6425fb50456b_mls.webp"
 ];
 
 export const pillars = [
@@ -94,45 +94,45 @@ export const testimonials = [
 ];
 
 export const aboutImages = [
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/beautiful-architecture-marseille-france-with-tall-business-buildings-white-sky1.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/37_IMG_8030HDR_mls.jpg",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/13_IMG_7934HDR_mls.jpg"
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/beautiful-architecture-marseille-france-with-tall-business-buildings-white-sky1.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/37_IMG_8030HDR_mls.jpg",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/13_IMG_7934HDR_mls.jpg"
 ];
 
 export const partnerLogos = [
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_01.png",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_02.png",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_03.png",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_04.png",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_05.png",
-  "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/p_logo_06.png"
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_01.png",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_02.png",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_03.png",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_04.png",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_05.png",
+  "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/p_logo_06.png"
 ];
 
 export const teamMembers = [
   {
     name: "David Josh, MBA",
     role: "Founder",
-    image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/03/David-Josh-Website-Photo-1.png"
+    image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/03/David-Josh-Website-Photo-1.png"
   },
   {
     name: "Robert Josh",
     role: "Coordination Administrator",
-    image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/03/Robert-Josh-Website-Photo.png"
+    image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/03/Robert-Josh-Website-Photo.png"
   },
   {
     name: "Vicky Pilapil",
     role: "Customer Support",
-    image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/06/Vicky-Website-Photo.png"
+    image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/06/Vicky-Website-Photo.png"
   },
   {
     name: "Jhonin Ong",
     role: "Website Developer",
-    image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/03/Jhonin-Website-Photo.png"
+    image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/03/Jhonin-Website-Photo.png"
   },
   {
     name: "Jess Baban",
     role: "Marketing Department",
-    image: "https://resolutionrealtygroup.com/wp-content/uploads/2025/03/Jess-Website-Photo.png"
+    image: "https://39237.us6.myftpupload.com/wp-content/uploads/2025/03/Jess-Website-Photo.png"
   },
   {
     name: "Adelaida III Sison",
